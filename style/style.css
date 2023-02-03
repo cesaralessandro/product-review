@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --cor-fundo: hsl(30, 38%, 92%)
+
+}
+
+html, body {
+    background-color: var(--cor-fundo);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indent-1 {
+    float: left;
+    
+}
+
+.indent-1 section {
+    width: 50%;
+    float: left;
+}
+
+.indent-2 {
+    float: right;
+    padding-left: 40px;
+    padding-right: 190px;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.indent-2 section {
+    width: 50%;
+    float: left;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 700;
+    color: grey;
+    letter-spacing: 5px;
+}
+
+p#newparagraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: normal;
+}
+
+h1 {
+    font-weight: 700;
+}
