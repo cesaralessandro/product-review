@@ -70,3 +70,8 @@ p#newparagraph {
 h1 {
     font-weight: 700;
 }
+
+button {
+    width: 450px;
+    justify-content: center;
+}
