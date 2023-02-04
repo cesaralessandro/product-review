@@ -15,6 +15,7 @@
 html, body {
     background-color: var(--cor-fundo);
     width: 100vw;
+    min-width: 375px;
     height: 100vh;
     display: flex;
     justify-content: center;
