@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --Cream: hsl(30, 38%, 92%);
+    --Dark_cyan: hsl(158, 36%, 37%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Fraunces: 'Fraunces', serif;
+    --Montserrat: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: var(--Cream);
+}
+
+section {
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+body {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.product-card {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    width: 350px;
+    height: 250px;
+    
+}
+
+div.content {
+
+    background-color: var(--White);
+    color: var(--Very_dark_blue);
+    margin-top: -4px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+p {
+    color: var(--Dark_grayish_blue);
+    font-family: var(--Montserrat);
+    font-size: 14px;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+p#top-p { padding-bottom: 10px; }
+p#normal-p { letter-spacing: normal; }
+p#price {
+    padding-bottom: 10px; 
+    padding-top: 0px;
+    letter-spacing: normal; 
+    font-size: 2em; 
+    font-family: var(--Fraunces);
+    color: var(--Dark_cyan);
+}
+
+span {
+    color: var(--Dark_grayish_blue);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+span.material-symbols-outlined {
+    padding-top: 5px;
+    padding-left: 0px;
+    color: var(--White);
+}
+
+h1 {
+    font-family: var(--Fraunces);
+    font-size: 1.8em;
+    text-align: left;
+    padding-left: 20px;
+}
+
+a {
+    background-color: var(--Dark_cyan);
+    border-radius: 5px;
+    color: var(--White);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--Montserrat);
+    margin-bottom: 20px;
+    margin: auto;
+    width: 310px;
+    height: 40px;
+}
+
+a:hover {
+    background-color: hsl(158, 37%, 23%);
+}
