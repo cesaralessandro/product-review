@@ -23,15 +23,18 @@ html {
 section {
     background-color: var(--White);
     border-radius: 10px;
+    display: block;
+    position: absolute;
 }
 
 body {
-    
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-26%, -47%);
+
 }
 
 div.product-card {
@@ -39,7 +42,6 @@ div.product-card {
     background-size: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    display: flex;
     width: 350px;
     height: 250px;
     
